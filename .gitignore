@@ -2,12 +2,41 @@
 __pycache__/
 *.py[cod]
 *$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
 venv/
+env/
+ENV/
+.venv
+
+# Environment variables (SENSITIVE!)
 .env
 
 # IDE specific
 .vscode/
 .idea/
+*.swp
+*.swo
+*~
 
-# Other
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Logs
 *.log
+logs/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Personal notes
+notes.txt
+TODO.md
